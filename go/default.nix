@@ -1,6 +1,6 @@
-{ callPackage, stdenv, fetchurl, fetchgit, haskellPackages, buildGoPackage , harmLib }:
+{ callPackage, stdenv, fetchurl, fetchgit, haskellPackages, buildGoPackage , myLib }:
 
-with harmLib;
+with myLib;
 
 rec {
 

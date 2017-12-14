@@ -10,7 +10,5 @@ root="$here/nix-results"
 
 mkdir -p "$root"
 
-go_r arm-mras.values
-go_r arm-asm-impl-tables.binutils.values
-go_r arm-asm-impl-tables.go.values
-go_r harm.values
+go_r binutils.values
+go_r go.values

@@ -1,6 +1,6 @@
-{ stdenv, fetchurl, haskellPackages, harmLib }:
+{ stdenv, fetchurl, haskellPackages, myLib }:
 
-with harmLib;
+with myLib;
 
 rec {
 
