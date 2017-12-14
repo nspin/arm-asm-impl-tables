@@ -8,7 +8,7 @@ here="$(dirname "$0")"
 
 root="$here/../nix-result"
 
-rm -r "$root"
+[ -d "$root" ] && rm -r "$root"
 mkdir -p "$root"
 
 go_rw binutils.c
