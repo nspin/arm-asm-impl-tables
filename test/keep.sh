@@ -14,3 +14,6 @@ mkdir -p "$root"
 go_rw binutils.c
 go_rw binutils.types-src
 go_rw binutils.values-src
+
+go_rw go.types-src
+go_rw go.values-src
